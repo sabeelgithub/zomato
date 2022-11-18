@@ -1,0 +1,437 @@
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.section1{
+    width: 100%;
+    height: 427px;
+    background-image: url(./zomato.webp);
+}
+.nav-bar{
+    width: 100%;
+    height: 72px;
+    
+   
+}
+.bar1{
+    width: 50%;
+    float: left;
+    height: 72px;
+    color: white;
+}
+
+.bar2{
+    float:left;
+    width: 50%;
+    height: 72px;
+
+   
+}
+.get{
+    padding: 7px 145px;
+    font-size: medium;
+} 
+.list{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 7px 139px;
+    color: white;
+}
+.zom{
+    height: 60px;
+    width: 300px;
+    padding-left: 42px;
+    padding-top: 35px;
+   
+}
+.content{
+    width: 100%;
+    height: 324px;
+}
+.food{
+    padding-left: 34px;
+    padding-top: 0px;
+    height: 39px;
+    font-size: 35px; 
+    color: white;
+}
+.img1{
+   margin:0 auto;
+    width: 400px;
+}
+.discover{
+    margin: 0 auto;
+    width: 736px;
+    height: 42px;
+}
+.search{
+    margin: 0 auto;
+    
+    width: 736px;
+    height: 54px;
+    display: flex;
+    border-radius: 14px;
+    margin-top: 30px;
+    background: white;
+}
+.select{
+    height: 54px;
+    width: 221px;
+    border-radius: 3px;
+    border-bottom-left-radius: 14px;
+    border-top-left-radius: 14px;
+    border: none;
+    background: white;
+    color: gray;
+}
+.input{
+    height: 48px;
+    width: 509px;
+    border-radius: 3px;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+   border: none;
+   outline: none;
+}
+.search2{
+    width: 70%;
+    display: flex;
+    gap: 7px;
+    border-left: 1px;
+
+}
+.search1{
+    width: 30%;
+    display: flex;
+}
+.material-symbols-outlined{
+    margin-top: 15px;
+    margin-left: 10px;
+    color: gray;
+}
+.material-symbols-rounded{
+    margin-top: 15px;
+    margin-left: 10px;
+    color:  rgb(255, 126, 139);
+
+}
+.input::placeholder{
+    color: gray;
+    
+}
+.detect{
+    color:rgb(255, 126, 139);
+}
+.i{
+    margin-top: 17px;
+    margin-left: 10px;
+}
+.section2{
+    width: 100%;
+    margin-left: 119px;
+    margin-top: 41px;
+}
+.square{
+    width: 550px;
+    height: 237px;
+    border: none;
+    border-radius: 23px;
+    box-shadow:0 0 3px gray;
+    
+
+    
+}
+.top{
+    width: 550px;
+    height: 150px;
+}
+.down{
+    width: 550px;
+    height: 87px;
+}
+.poto{
+    width: 550px;
+    height: 150px;
+   border-top-left-radius: 23px;
+   border-top-right-radius: 23px;
+   object-fit: cover;
+}
+.order{
+   
+padding-top: 13px;
+padding-left: 30px;
+margin-top: 0px;
+}
+.home{
+    padding-left: 30px;
+    padding-bottom: 2px;
+}
+.section3{
+    width: 100%;
+    height: 618px;
+    padding-top: 56px;
+    padding-left: 119px;
+
+}
+.popular{
+    width: 54%;
+    height: 250px;
+    height: 45px;
+}
+.local{
+    font-size: 38px;
+}
+.same{
+    width: 334px;
+    height: 74px;
+    
+    padding-left: 17px;
+    padding-top: 4px;
+    border: 2px solid;
+    outline: none;
+    border-color: whitesmoke;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+.same:hover{
+    box-shadow:0 0 3px gray;
+
+}
+.container{
+    margin-top: 50px;
+    width: 86%;
+    height: 373px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  
+}
+.text{
+    font-size: 21px;
+    font-weight: normal;
+    margin: 5px 1px;
+}
+.num{
+    font-size: 17px;
+    font-weight: lighter;
+    color: gray;
+    margin: 7px 0px;
+}
+.material-symbols-outlined {
+    margin-right: 13px;
+    margin-top: 15px;
+    color: gray;
+    font-size: 7px;
+  }
+  .section4{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 251, 247);
+    padding: 82px 268px;
+    display: flex;
+
+  }
+  .mobile{
+    width: 247px;
+    height: 300px;
+    padding: 37px;
+  }
+  .phone{
+    width: 250px;
+  }
+  .total{
+    width: 465px;
+    height: 336px;
+  }
+  .apps{
+    width: 465px;
+    height: 60px;
+    font-size: 52px;
+    margin-top: -52px;
+    
+  }
+.link{
+    width: 458px;
+    height: 60px;
+    padding-top: 4px;
+    padding-left: 7px;
+    margin-left: 0px;
+}
+.email{
+    width: 465px;
+    height: 29px;
+    margin: 0px;
+    padding-top: 14px;
+}
+.typing{
+    width: 465px;
+    height: 60px;
+    
+}
+.das{
+    height: 52px;
+    width: 249px;
+    border-radius: 4px;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: gray;
+
+}
+.button{
+    height: 56px;
+    width: 203px;
+    background-color:orangered;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    margin-top: 3px;
+}
+.das::placeholder{
+    font-size: 18px;
+    color: gray;
+}
+.dot{
+    width: 465px;
+    height: 40px; 
+}
+.p{
+    padding-top: 9px;
+    color: gray;
+}
+.web{
+    width: 465px;
+    height: 43px;
+    display: flex;
+    gap: 18px;
+}
+.googleplay{
+    height: 43px;
+}
+.apple{
+    height: 43px;
+
+}
+.section5{
+    margin: 0px;
+    width: 100%;
+    height: 359px;
+}
+.explore{
+    font-size: 31px;
+    padding: 0px 117px
+}
+.red{
+    width: 100%;
+    height: 81px;
+    padding: 0px 117px
+}
+.level{
+    width: 1097px;
+    height: 64px;
+    font-size: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 4px;
+    border-color: rgb(153, 152, 152);
+    padding-left: 22px;
+}
+.section6{
+    width: 100%;
+    height: 465px;
+    background: rgb(248, 248, 248);
+    padding-top: 45px;
+}
+.nas{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+
+}
+.nas1{
+    width: 145px;
+    height: 35px;
+    margin-left: 116px;
+}
+.nas2{
+    width: 200px;
+    height: 35px;
+    margin-right: 138px;
+    display: flex;
+    justify-content: space-between;
+}
+.love{
+    width: 135px;
+    height: 25px;
+    padding-top: 5px
+}
+.nas3{
+    width: 94px;
+    height: 35px;
+}
+.nas4{
+    width: 94px;
+    height: 35px;
+    display: flex;
+}
+.india{
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: gray;
+    font-size: 16px;
+    color: gray;
+
+
+}
+.english{
+    width: 90px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: gray;
+    font-size: 16px;
+    color: gray;
+
+}
+.next1{
+    width: 100%;
+    height: 287px;
+    margin-top: 34px;
+    display: flex;
+    padding-left: 110px;
+    gap: 102px;
+    list-style: none;
+    padding-right: 4px;
+}
+.rocky{
+    width: 137px;
+    height: 40px;
+}
+.dubai{
+    margin-top: 9px;
+}
+.other{
+    width: 100%;
+    height: 74px;
+}
+.nack{
+    font-size: 13.5px;
+     padding: 16px 108px;
+     color: gray;
+}
+.double{
+    height:-1px;
+    background-color: gray;
+    margin-left: 110px;
+    margin-right: 138px;
+    
+}
+div.next1 p{
+    color: gray;
+}
